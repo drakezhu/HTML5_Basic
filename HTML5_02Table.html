@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Build Table</title>
+</head>
+<body>
+<table border="1px"> <!-- 边框属性是1px的边框，可以加粗表格的边框 -->
+	<thead> <!-- 表头 -->
+	<tr>
+		<th>admin</th>
+		<th>gender</th> <!-- th是head 会加粗，为一列表的头，表示这一列的属性 -->
+		<th>password</th>
+	</tr>
+	</thead>
+	<tbody> <!-- 表的内容 -->
+	<tr>
+		<td>Drake</td>
+		<td>Male</td>
+		<td>123456</td>
+	</tr>
+	<tr>
+		<td>Ben</td>
+		<td>Male</td>
+		<td>654321</td>
+	</tr>
+	</tbody>
+	<tfoot> <!-- 表的脚注 -->
+		<td>admin</td>
+		<td>gender</td>
+		<td>password</td>
+	</tfoot>
+<table>
+<br>
+<br>
+<table border="1px">
+	<thead>
+	<tr>
+		<th>aaa</th>
+		<th>bbb</th>
+		<th>ccc</th>
+	</tr>
+	</thead>
+	<tr>
+		<td colspan="2">111</td> <!-- 合并第二行表的第一列和第二列 -->
+		<td>333</td>
+	</tr>
+	<tr>
+		<td rowspan="2">qwe</td>
+		<td>asd</td>
+		<td>zxc</td>
+	</tr>
+	<tr>
+		<td>ggg</td>
+		<td>jjj</td>
+	</tr>
+</table>
+</body>
