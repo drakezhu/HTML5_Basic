@@ -19,5 +19,49 @@
 		<input type="password" placeholder="password"> <!-- 输入类型为password，可以遮挡输入的显示 -->
 		<br>
 		<textarea rows="20">aaaaaaaaaaaaaaa</textarea> <!-- 文本框,rows调整行数 --> 
+		<br>
+		<input type="button" value="this is a button">
+		<button>BUTTON</button> <!-- js合作并作为绑定事件 -->
+		<input type="submit" value="SUBMIT"> <!-- 提交表单 -->
+		<br>
+		<input type="range" min="-100">
+		<br>
+		<input type="range" max="500" step="100" value="200"> <!-- 最小值，最大值，step每格宽度，value起始位置 -->
+		<br>
+		<input type="number" min="-100" max="200" value="0"> <!-- 手动输入的数字类型，比如选择月份的表格 -->
+		<br>
+		<input type="checkbox"> clicked1 <!-- 可以勾选的checkbox -->
+		<br>
+		<input type="radio" >clicked2 <!-- 一旦勾选不能取消 -->
+		<br>
+		<input type="radio" name="groupA" checked="">a <!-- checked代表默认勾选了这个 -->
+		<input type="radio" name="groupA">b  <!-- 三选一，都属于同一个name -->
+		<input type="radio" name="groupA">c
+		<br>
+		<select>
+			<option>apple</option>
+			<option>banana</option> <!-- 只能选中选项中的一个 -->
+			<option>pear</option>
+		</select>
+		<br>
+		<input type="text" list="a">
+		<datalist id="a">
+			<option>apple</option>
+			<option>banana</option>  <!-- datalist和select的区别是datalist可以自己填写想要的内容，不过必须要用list id将其refer出来 -->
+			<option>pear</option> <!-- 比如这个list的id为a，然后datalist的id也是a，两者对应 -->
+		</datalist>
+		<br>
+		<input type="email" name=""> <!-- 用来认证输入是否符合需要的规范 -->
+		<input type="tel" name="">
+		<input type="url" name="">
+		<br>
+		<input type="date">  <!-- 获得日期值 -->
+		<input type="color"> <!-- 获取颜色 -->
+		<input type="search"> <!-- 获得搜索词？？ -->
+		<input type="hidden" value="what's up"> <!-- 隐藏值，不会显示，但会上传 -->
+		<br>
+		<input type="image" src="/Users/drake/Desktop/dota_allHero.jpeg" width="80px"> <!-- 图片 -->
+		<br>
+		<input type="file" multiple> <!-- 上传文件,multiple属性是可以上传多个文件 -->
 	</form>
 </body>
